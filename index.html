@@ -1,8 +1,40 @@
 <!DOCTYPE html>
 <html>
-<body>
-  <script>
-    window.location.href = "https://meet.google.com/fsx-xmfm-qtu";
-  </script>
-</body>
+  <head>
+    <title>Sala do Marco</title>
+    <style>
+      * {
+        background-color: #0c1217;
+        color: #f2f2f2;
+      }
+      .main {
+        display: grid;
+        place-items: center;
+        height: 100vh;
+      }
+      .main div {
+        display: flex;
+      }
+      .main h1 {
+        padding-left: 20px;
+      }
+      .main img {
+        border-radius: 50%;
+        border: 1.5px solid #f2f2f2;
+      }
+    </style>
+  </head>
+  <body>
+    <main class="main">
+      <div>
+        <img src="assets/images/marco.jpg" />
+        <h1>Sala do Prof. Marco Andrade</h1>
+      </div>
+    </main>
+    <script>
+      window.setTimeout(() => {
+        window.location.href = "https://meet.google.com/fsx-xmfm-qtu";
+      }, 2000);
+    </script>
+  </body>
 </html>
